@@ -1,22 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
-
+//component 시작은 대문자로 .. 일반 tag랑 사용자 정의 tag 구분
+//리턴은 태그 하나만 가능하지만 <> </> fragment tag로 묶어주기 가능
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          채수철
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img src={logo} className="App-logo" alt="logo" />
+        
+        
       </header>
     </div>
   );
