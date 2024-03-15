@@ -1,8 +1,10 @@
 
 import './App.css';
 
-import HelloCss from './02/HelloCss';
 import { GoHomeFill } from "react-icons/go";
+import MyDiv1 from './03_1/MyDiv1';
+import MyList from './04/MyList';
+import MyListMain from './04/MyListMain';
 
 
 
@@ -17,8 +19,8 @@ function App() {
         <div>리액트 실습</div>
         <div><GoHomeFill/></div>
       </header>
-      <main className='grow'>
-        <HelloCss/>
+      <main className='grow flex justify-center flex-col items-center'>
+        <MyListMain/>
       </main>
       <footer className='flex justify-center items-center
        text-white bg-slate-800 h-20 text-base'>
