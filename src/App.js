@@ -2,9 +2,8 @@
 import './App.css';
 
 import { GoHomeFill } from "react-icons/go";
-import MyDiv1 from './03_1/MyDiv1';
-import MyList from './04/MyList';
-import MyListMain from './04/MyListMain';
+
+import BoxOfficeTb from './05/BoxOfficeTb';
 
 
 
@@ -20,7 +19,7 @@ function App() {
         <div><GoHomeFill/></div>
       </header>
       <main className='grow flex justify-center flex-col items-center'>
-        <MyListMain/>
+        <BoxOfficeTb/>
       </main>
       <footer className='flex justify-center items-center
        text-white bg-slate-800 h-20 text-base'>
