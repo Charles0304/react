@@ -3,7 +3,8 @@ import './App.css';
 
 import { GoHomeFill } from "react-icons/go";
 
-import BoxOfficeTb from './05/BoxOfficeTb';
+import BoxOfficeTb from './05_1/BoxOfficeTb';
+import Lotto from './06/Lotto';
 
 
 
@@ -19,7 +20,7 @@ function App() {
         <div><GoHomeFill/></div>
       </header>
       <main className='grow flex justify-center flex-col items-center'>
-        <BoxOfficeTb/>
+        <Lotto/>
       </main>
       <footer className='flex justify-center items-center
        text-white bg-slate-800 h-20 text-base'>
