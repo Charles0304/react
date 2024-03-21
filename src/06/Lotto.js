@@ -28,10 +28,10 @@ export default function Lotto() {
         }
         nums.push(rand)
 
-        setBalls(nums.map(n => <TailBall key={n} num={n} />));
+        
         setBalls(nums.map((n, idx) => {
             if (idx===5)
-                return <><TailBall key={n} num={n} /><span className="text-xl font-bold">+</span></>
+                return <><TailBall key={n} num={n} /><span key={0} className="text-xl font-bold">+</span></>
             else
                 return <TailBall key={n} num={n} />
         }));

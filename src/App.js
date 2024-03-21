@@ -5,6 +5,9 @@ import { GoHomeFill } from "react-icons/go";
 
 import BoxOfficeTb from './05_1/BoxOfficeTb';
 import Lotto from './06/Lotto';
+import FoodMain from './07/FoodMain';
+import MyClockTime from './08/MyClockTime';
+import MyClock from './08/MyClock';
 
 
 
@@ -20,7 +23,7 @@ function App() {
         <div><GoHomeFill/></div>
       </header>
       <main className='grow flex justify-center flex-col items-center'>
-        <Lotto/>
+        <MyClock/>
       </main>
       <footer className='flex justify-center items-center
        text-white bg-slate-800 h-20 text-base'>
