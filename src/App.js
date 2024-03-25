@@ -3,7 +3,10 @@ import './App.css';
 
 import { GoHomeFill } from "react-icons/go";
 
-import TrafficMain from './09/TrafficMain';
+//import TrafficMain from './09/TrafficMain';
+//import RefVal from './10/RefVal';
+import RefInput from './10/RefInput';
+import BoxOffice from './11/BoxOffice';
 
 
 
@@ -19,7 +22,7 @@ function App() {
         <div><GoHomeFill/></div>
       </header>
       <main className='grow flex justify-center flex-col items-center'>
-        <TrafficMain/>
+        <BoxOffice/>
       </main>
       <footer className='flex justify-center items-center
        text-white bg-slate-800 h-20 text-base'>
