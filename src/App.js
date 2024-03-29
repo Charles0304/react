@@ -8,7 +8,7 @@ import { GoHomeFill } from "react-icons/go";
 //import RefInput from './10/RefInput';
 //import BoxOffice from './11/BoxOffice';
 //import GalleryCard from './12/GalleryCard';
-import GalleryMain from './12/GalleryMain';
+import GalleryMain from './13/GalleryMain';
 
 
 
