@@ -1,7 +1,7 @@
 export default function TailInput({type, inputRef, ph, handleChange}) {
     return (
         
-        <div>
+        
             <input type={type}
             ref={inputRef}
             onChange={handleChange}
@@ -11,7 +11,7 @@ export default function TailInput({type, inputRef, ph, handleChange}) {
             text-sm rounded-lg 
             focus:ring-blue-500 
             focus:border-blue-500 block 
-            w-full p-2.5 " placeholder={ph} />
-        </div>
+            w-full px-4 py-2 m-2 " placeholder={ph} />
+        
     )
 }

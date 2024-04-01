@@ -15,7 +15,6 @@ function MyClockTime() {
 
   //tm이 바뀔때마다
   useEffect(()=>{
-    console.log("[] => "+currentTime)
   },[currentTime])
   
   
